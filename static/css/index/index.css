@@ -1,8 +1,4 @@
 
-.navbar-nav {
-    float: right;
-}
-
 .navbar-nav > a {
     font-size: 13px; /* Default was 14px */
     font-family: Open Sans;
@@ -15,6 +11,15 @@
 
 .navbar-nav >li > a {
     color: white;
+}
+
+.sub-banner {
+    margin-top:-60px;
+}
+
+.sub-banner >img {
+    width: 100%;
+    text-align: center;
 }
 
 .jumbotron-bg-black {
