@@ -38,6 +38,7 @@
 
 .btn-submit-name {
     padding: 17px 135px;
+    margin-left: 110px;
     background: red;
 }
 
@@ -74,5 +75,15 @@ h3 span, .label-default {
 @media (min-width: 768px) {
     .jumbotron {
         padding-top:20px;
+    }
+}
+
+@media (max-width: 786px) {
+    .btn-submit-name {
+        padding:17px 110px;
+        margin-left: 25px;
+    }
+    .btn-submit-to-work {
+        padding:24px 110px;
     }
 }
