@@ -1,0 +1,75 @@
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > a {
+    font-size: 13px; /* Default was 14px */
+    font-family: Open Sans;
+    font-weight: 500 !important; /* Default was 300. If using a Google font then the weight has to be available */
+    letter-spacing: 0.05em;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.navbar-nav >li > a {
+    color: white;
+}
+
+.jumbotron-bg-black {
+    background: #1c1e23;
+}
+
+.jumbotron-bg-cornsilk {
+    background: #e1dfdf;
+}
+.jumbotron-bg-blue {
+    background: #2D777D;
+}
+.jumbotron-bg-white {
+    background: white;
+}
+
+.btn-submit-name {
+    padding: 17px 145px;
+    margin-left: 100px;
+    background: red;
+}
+
+.btn-submit-to-work {
+    padding: 24px 160px;
+    margin-left: 100px;
+    background: red;
+}
+
+.jumbotron p,.text-size-16 {
+    font-size: 16px;
+}
+
+.jumbotron {
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+.text-red {
+    color: red;
+}
+
+h3 span, .label-default {
+    background: #737373;
+    font-family:"微软雅黑",'黑体',Arial,SimSun;
+    border-radius:0px;
+}
+
+.label-bg-red>span {
+    background: red;
+    font-family:"微软雅黑",'黑体',Arial,SimSun;
+    border-radius:0px;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top:20px;
+    }
+}
