@@ -1,0 +1,21 @@
+
+.float-ask-menu {
+    width: 100px;
+    height: 400px;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 200px;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.list-group-item-black {
+    color: white;
+    background-color:black;
+}
+
+.list-group-item-black {
+    color: black;
+}
